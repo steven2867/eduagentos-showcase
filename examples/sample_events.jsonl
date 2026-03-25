@@ -1,0 +1,5 @@
+{"event_type": "enrollment_created", "student_id": "STU_001", "course_id": "COURSE_ENG_01", "timestamp": "2026-01-10T10:00:00"}
+{"event_type": "session_created", "session_id": "SES_001", "course_id": "COURSE_ENG_01", "start_time": "2026-01-15T15:00:00", "end_time": "2026-01-15T16:00:00"}
+{"event_type": "attendance_recorded", "student_id": "STU_001", "session_id": "SES_001", "status": "late", "join_time": "15:40"}
+{"event_type": "attendance_recorded", "student_id": "STU_002", "session_id": "SES_001", "status": "present", "join_time": "15:00"}
+{"event_type": "attendance_recorded", "student_id": "STU_003", "session_id": "SES_001", "status": "no_show"}
