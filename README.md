@@ -76,6 +76,25 @@ eduagentos-showcase/
 └── sample_events.jsonl
 
 
+## AI Integration (Example)
+
+This showcase includes a simple extraction workflow that demonstrates how unstructured text can be converted into structured event data.
+
+Example:
+
+Input:
+"Student STU_001 joined session SES_001 late at 15:40"
+
+Output:
+{
+  "event_type": "attendance_recorded",
+  "student_id": "STU_001",
+  "session_id": "SES_001",
+  "status": "late"
+}
+
+In a production environment, this logic can be extended using LLMs or AI APIs.
+
 ---
 
 ## Notes
