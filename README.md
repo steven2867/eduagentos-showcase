@@ -77,6 +77,7 @@ eduagentos-showcase/
 
 
 ## AI Integration (Example)
+Text → AI extractor → event → demo system
 
 This showcase includes a simple extraction workflow that demonstrates how unstructured text can be converted into structured event data.
 
